@@ -71,7 +71,7 @@ Cloud resource management
 
 ## Run the app:
 
-uvicorn main:app --reload
+uvicorn src.main:app --reload
 
 Access API using /docs
 
