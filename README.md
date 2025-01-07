@@ -69,10 +69,22 @@ Git workflow for project development
 Error handling in distributed systems
 Cloud resource management
 
-Future Enhancements
+## Run the app:
 
-Add weather forecasting
-Implement data visualization
-Add more cities
-Create automated testing
-Set up CI/CD pipeline
+uvicorn main:app --reload
+
+Access API using /docs
+
+Endpoint:
+
+POST /weather/{city}
+
+Sample output:
+
+{
+  "city": "Bengaluru",
+  "temp": 72.39,
+  "feels_like": 72.19,
+  "humidity": 61,
+  "conditions": "few clouds"
+}
