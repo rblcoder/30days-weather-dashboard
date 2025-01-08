@@ -2,6 +2,10 @@
 
 Day 1: Building a weather data collection system using AWS S3 and OpenWeather API
 
+## Screenshot
+
+![Alt S3 objects storing weather data](s3objects.png?raw=true "S3 objects storing weather data")
+
 # Weather Data Collection System - DevOps Day 1 Challenge
 
 ## Project Overview
@@ -90,7 +94,5 @@ Sample output:
   "conditions": "few clouds"
 }
 
-## Screenshots
 
-![Alt S3 objects storing weather data](s3objects.png?raw=true "S3 objects storing weather data")
 
