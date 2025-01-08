@@ -68,6 +68,7 @@ Python best practices for API integration
 Git workflow for project development
 Error handling in distributed systems
 Cloud resource management
+Made a rest API endpoint using fastAPI
 
 ## Run the app:
 
@@ -88,3 +89,8 @@ Sample output:
   "humidity": 61,
   "conditions": "few clouds"
 }
+
+## Screenshots
+
+![Alt S3 objects storing weather data](s3objects.png?raw=true "S3 objects storing weather data")
+
