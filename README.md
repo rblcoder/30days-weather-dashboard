@@ -2,7 +2,13 @@
 
 Day 1: Building a weather data collection system using AWS S3 and OpenWeather API
 
+# My learnings
+
+Converted the script into a rest API endpoint using FastAPI, which was able to get the weather data using OpenWeather API and store the same in S3
+
 ## Screenshot
+
+S3 objects which contain the data from the weather API
 
 ![Alt S3 objects storing weather data](s3objects.png?raw=true "S3 objects storing weather data")
 
